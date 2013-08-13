@@ -1,0 +1,241 @@
+/* Basic */
+html {
+	height:100%;
+}
+
+body {
+	padding-top:50px;
+	padding-bottom:20px;
+	font-family:"Ubuntu";
+	height:100%;
+}
+
+.body-content {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/* navbar color schemes*/
+/*index*/
+
+.index_active li:nth-child(1),
+.resources_active li:nth-child(4),
+.contact_active li:nth-child(2) {
+	background-color:#1f707e;
+	border-radius:4px;
+}
+
+.playground_active li:nth-child(3) {
+	background-color:#83254f;
+	border-radius:4px;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color:transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color:#195964;
+}
+
+/*other color scheme*/
+.other {
+	background-color:#9b2c5e;
+}
+
+.navbar-inverse .playground_active li a:hover,.playground_active li a:focus {
+	background-color:#772248;
+}
+
+.navbar-inverse .other .navbar-toggle {
+	background-color:#83254f;
+}
+
+.navbar-inverse .other .navbar-toggle:hover,.navbar-inverse .other .navbar-toggle:focus {
+	background-color:#772248;
+}
+
+
+/* navbar color schemes*/
+.h_title {
+	font-family:"Coming Soon",serif;
+	font-size:30px;
+}
+
+.h_nav_nav {
+	font-size:13px;
+	font-weight:100;
+}
+
+.h_nav {
+	border-bottom:solid 1px #ddd;
+}
+
+.h_nav a {
+	color:#fff;
+}
+
+.h_nav a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+.content {
+	padding-top:40px;
+}
+
+.rest {
+	padding-top:0;
+}
+
+.content h2 {
+	font-family:"Coming Soon", serif;
+}
+
+.content h3 {
+	font-family:"Ubuntu", serif;
+	font-size: 20px;
+	text-align:center;
+}
+
+.content p {
+	color:#565656;
+	font-weight:300;
+}
+
+.content p em {
+	font-weight:400;
+	font-style:normal;
+}
+
+.content a,.footer a {
+	color:#2c919b;
+}
+
+.content a:hover,.footer a:hover {
+	color:#227179;
+}
+
+.nodec {
+	font-weight: 100;
+}
+
+.box_spacing {
+	margin-top:20px;
+}
+
+.image-center {
+	text-align:center;
+}
+
+.icons {
+	width:50px;
+	height:50px;
+}
+
+#lea {
+	width:120px;
+	height:120px;
+	display:inline;
+	float:right;
+}
+
+#playground {
+	display:inline;
+	float:left;
+	padding-top:40px;
+}
+
+#resources {
+	display:inline;
+	float:right;
+	padding-top:40px;
+}
+
+.separator {
+	height:1px;
+	background-color:#ddd;
+}
+
+#and {
+	width:20px;
+	height:20px;
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	font:30px "Coming Soon";
+	color:#2c919b;
+	margin:auto;
+	text-align:center;
+	margin-bottom:-25px;
+}
+
+.footer {
+	width:100%;
+	background-color:#eaeaea;
+	border-top:1px solid #ddd;
+	margin-top:20px;
+	min-height:90px;
+	font-weight:300;
+	font-size:12px;
+	text-align:center;
+}
+
+.footer a {
+	color:#2c919b;
+}
+
+.footer a:hover {
+	color:#227179;
+}
+
+.height_fix {
+	margin-top:-30px;
+}
+
+#icon {
+	height:25px;
+	width:25px;
+}
+
+.oth h1 {
+	color: #772248;
+}
+
+.oth a {
+	color: #772248;
+}
+
+.oth a:hover {
+	color: #83254f;
+}
+
+.oth p a {
+	color: #772248;
+}
+
+.oth p a:hover {
+	color: #83254f;
+}
+
+.date {
+	font-size:10px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 769px) {
+	#footer {
+		margin-left:-20px;
+		margin-right:-20px;
+		padding-left:20px;
+		padding-right:20px;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.content h2 {
+		text-align:center;
+	}
+}
