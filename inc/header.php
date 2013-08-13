@@ -9,8 +9,8 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
     
-    <link rel="shortcut icon" href="<?php if($other) {echo "icons/hellosunschein_other.ico";} else {
-        echo "icons/hellosunschein.ico";} ?>" >
+    <link rel="shortcut icon" href="<?php if($other) {echo "images/icons/hellosunschein_other.ico";} else {
+        echo "images/icons/hellosunschein.ico";} ?>" >
 
     <title>hellosunschein*</title>
 </head>
