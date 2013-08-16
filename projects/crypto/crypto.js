@@ -49,7 +49,7 @@ $(document).ready(function() {
 
 		$("#encrypt").on("click", function () {
 			$(this).val("");
-			$("#en").empty();
+			$("#en_answer").empty();
 		});
 
 		}
