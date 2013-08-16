@@ -26,7 +26,7 @@
 	        </button>
         </div>
             <div class="navbar-brand h_title">
-                <a href="index.php">hellosunschein*</a>
+                <a id="main" href="index.php">hellosunschein*</a>
             </div>
 
             <div class="nav-collapse collapse">

@@ -47,8 +47,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->Subject = "hellosunschein Contact Form Submission | " . $name;
     $mail->MsgHTML($email_body);
 
+    $subject = "hellosunschein Contact Form Submission | " . $subject;
+    $headers = "From: " . $name;
+
     if(!$mail->Send()) {
         echo "Mailer Error: " . $mail->ErrorInfo;
+        mail($address, $subject, $email_body, $headers);
         exit;
     } 
 

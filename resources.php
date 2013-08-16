@@ -74,6 +74,7 @@ include('inc/header.php');
                     <li><a href="http://devbootcamp.com/faq/">Dev Bootcamp</a></li>
                     <li><a href="https://www.thinkful.com">Thinkful</a></li>
                     <li><a href="http://thecodeplayer.com/">The Code Player</a></li>
+                    <li><a href="http://yuilibrary.com/">YUI</a></li>
                 </ul>
 
                 <h3>Design/Dev Community</h3>
@@ -143,6 +144,7 @@ include('inc/header.php');
                     <li><a href="http://designm.ag/">DesignMag</a></li>
                     <li><a href="http://www.theleagueofmoveabletype.com/">The League of Movable Type</a></li>
                     <li><a href="http://webplatformdaily.org/">Web Platform Daily</a> - web digest for computer geeks</li>
+                    <li><a href="http://byjakewithlove.com/">By Jake, with Love</a></li>
                 </ul>
 
             </div>
@@ -179,6 +181,8 @@ include('inc/header.php');
                     <li><a href="http://cubic-bezier.com/">cubib-bezier</a> - preview transitions</li>
                     <li><a href="http://lea.verou.me/css3patterns/">CSS3 Patterns</a></li>
                     <li><a href="http://lea.verou.me/demos/cssgradientsplease/">CSS3 Gradients</a></li>
+                    <li><a href="http://jsbin.com/">JS Bin</a></li>
+                    <li><a href="http://jsfiddle.net/">JS Fiddle</a></li>
                 </ul>
 
             
@@ -211,6 +215,7 @@ include('inc/header.php');
                     <li><a href="http://www.yuiblog.com/crockford/">Crockford on JavaScript</a></li>
                     <li><a href="https://github.com/rmurphey/js-assessment">JavaScript Assestment Tests</a></li>
                     <li><a href="http://ejohn.org/apps/learn/">Advanced JavaScript</a></li>
+                    <li><a href="http://learn.jquery.com/">Learn jQuery</a></li>
                 </ul>
 
                 <h3>Ruby</h3>

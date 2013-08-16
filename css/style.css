@@ -22,12 +22,10 @@ body {
 .resources_active li:nth-child(4),
 .contact_active li:nth-child(2) {
 	background-color:#1f707e;
-	border-radius:4px;
 }
 
 .playground_active li:nth-child(3) {
 	background-color:#83254f;
-	border-radius:4px;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -237,5 +235,11 @@ h1 {
 @media screen and (max-width: 769px) {
 	.content h2 {
 		text-align:center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.navbar-inverse .navbar-brand #main { 
+		font-size: 24px;
 	}
 }
