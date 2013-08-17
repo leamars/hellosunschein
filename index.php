@@ -6,10 +6,8 @@ include('inc/header.php');
 
     <div class="container">
         <div class="row">
-        	<div class="col-lg-1"></div>
-            <div id="hi" class="col-lg-3 image-center"><img class="img-responsive" src="images/hi.png"></div>
-            
-            <div class="col-lg-7 content">
+        	<div class="col-lg-1"></div>            
+            <div class="col-lg-10 content">
                 <h2>My name is Lea. <img id="lea" class="responsive-img" src="images/lea.png"></h2>
 
                 <p>I'm a(n almost) 21 year old college student majoring in Computer Science. I take pride in finding great music videos with under 1,000 views. I like solving problems. I like black risotto, MIKA, and Madeira (the island, not the wine). </p>

@@ -40,7 +40,7 @@ include('inc/header.php');
                 <li><a href="index.php">Launch Website</a> <br /><span class="date">(August 11th)</span></li>
                 <li><a href="projects/spasticBackground/index.html">Spastic Background</a> <br /><span class="date">(August 12th)</span></li>
                 <li><a href="projects/crypto/index.html">Encrypt/Decrypt</a> <br /> <span class="date">(August 16th)</span></li>
-                <li>Default <br /> <span class="date">(August 32nd)</span></li>
+                <li><a href="projects/calculator/index.html">Calculator</a> <br /> <span class="date">(August 16th)</span></li>
                 <li>Default <br /> <span class="date">(August 32nd)</span></li>
                 </ol>
             </div>

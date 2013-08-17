@@ -1,0 +1,118 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #e4e4e4;
+	color:#7d7d7d;
+	font-family:Helvetica;
+}
+
+.header_1 {
+	width:100%;
+	height:30px;
+	box-shadow: 0 3px 25px 0 black;
+	background-color:#272727;
+	color:#a5a5a5;
+}
+
+.header_1 p, 
+.header_1 p a {
+	color:#a5a5a5;
+	font-family: "Ubuntu";
+	padding-top:6px;
+	padding-left:15px;
+	text-decoration: none;
+}
+
+.calculator {
+	width:350px;
+	height:auto;
+	background-color:#8ac8ed;
+	box-shadow: 3px 3px 10px 0px #b4b4b4;
+	border-bottom:5px solid #0992e2;
+	border-radius:5px;
+	margin: auto;
+	margin-top:40px;
+	padding:20px;
+}
+
+.keys {
+	overflow: hidden;
+}
+
+.keys span {
+	float:left;
+	width:61px;
+	height:40px;
+	padding:10px 25px;
+	margin:8px;
+	background-color:#e5e5e5;
+	border-radius:3px;
+	text-align:center;
+	border-bottom: 3px solid #646464;
+	cursor:pointer;
+	-webkit-transition-duration: 0.1s, 0.2s;
+}
+
+.keys span:hover {
+	background-color:#a1a1a1;
+	color:white;
+	text-shadow:-1px -1px 1px #a6a6a6;
+	-webkit-transition-duration: 0.1s, 0.2s;
+}
+
+.keys #result {
+	width:214px;
+	height:40px;
+	cursor:default;
+	background-color:#4f4f4f;
+	border-bottom:none;
+	border-top:3px solid #646464;
+	color:white;
+	text-align:right;
+	text-shadow:-1px -1px 1px #a6a6a6;
+}
+
+.keys #clear {
+	background-color:#ff8888;
+	color:#f0f0f0;
+	text-shadow:-1px -1px 1px #a6a6a6;
+	-webkit-transition-duration: 0.1s, 0.2s;
+}
+
+.keys #clear:hover {
+	background-color:#d86d6d;
+	-webkit-transition-duration: 0.1s, 0.2s;
+}
+
+.keys .operator {
+	background-color:#cc980b;
+	color:#f0f0f0;
+	text-shadow:-1px -1px 1px #a6a6a6;
+	-webkit-transition-duration: 0.1s, 0.2s;
+}
+
+.keys .operator:hover {
+	background-color:#ac8314;
+	-webkit-transition-duration: 0.1s, 0.2s;	
+}
+
+.keys #equals {
+	background-color:#2f7095;
+	color:#f0f0f0;
+	text-shadow:-1px -1px 1px #a6a6a6;
+	-webkit-transition-duration: 0.1s, 0.2s;
+}
+
+.keys #equals:hover {
+	background-color:#204f6a;
+	-webkit-transition-duration: 0.1s, 0.2s;
+}
+
+
+
+
+
