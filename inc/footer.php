@@ -21,7 +21,10 @@
 </script><!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="dist/js/bootstrap.js" type="text/javascript">
 </script><!-- Optionally enable responsive features in IE8 -->
-    <script src="js/respond.js" type="text/javascript">
+    <script src="js/unslider.js" type="text/javascript">
+</script>
+</script><!-- Optionally enable responsive features in IE8 -->
+    <script src="js/general.js" type="text/javascript">
 </script>
 </body>
 </html>

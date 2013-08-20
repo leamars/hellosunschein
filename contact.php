@@ -79,7 +79,7 @@ include('inc/header.php');
             <h2>Leave me a message (:</h2>
             <p>Hey, I'd love to hear from you, whether you'd like me to participate in a future project of yours, bash my code, 
             or just say hello. </p>
-            <form action="contact.php" method="post" id="contact">
+            <form id="form" action="contact.php" method="post" id="contact">
             <fieldset>
             <legend align="center">Contact</legend>
 

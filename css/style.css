@@ -7,7 +7,9 @@ body {
 	padding-top:50px;
 	padding-bottom:20px;
 	font-family:"Ubuntu";
+	font-size:15px;
 	height:100%;
+	background:url("../images/textured_paper.png"), repeat;
 }
 
 .body-content {
@@ -19,13 +21,20 @@ body {
 /*index*/
 
 .index_active li:nth-child(1),
-.resources_active li:nth-child(4),
-.contact_active li:nth-child(2) {
+.resources_active li:nth-child(5),
+.contact_active li:nth-child(3),
+.about_active li:nth-child(2) {
 	background-color:#1f707e;
 }
 
-.playground_active li:nth-child(3) {
+.playground_active li:nth-child(4) {
 	background-color:#83254f;
+}
+
+.navbar-inverse, 
+.navbar,  
+.navbar-fixed-top {
+	border-bottom:20px black solid;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -56,12 +65,14 @@ body {
 
 /* navbar color schemes*/
 .h_title {
-	font-family:"Coming Soon",serif;
-	font-size:30px;
+	font-family:"Lobster Two",serif;
+	font-size:40px;
+	text-shadow:-1px -1px 1px #a6a6a6;
 }
 
 .h_nav_nav {
-	font-size:13px;
+	font-family:"Ubuntu";
+	font-size:14px;
 	font-weight:100;
 }
 
@@ -80,6 +91,7 @@ body {
 
 .content {
 	padding-top:40px;
+	text-shadow:-1px -1px 0px white
 }
 
 .rest {
@@ -87,11 +99,12 @@ body {
 }
 
 .content h2 {
-	font-family:"Coming Soon", serif;
+	padding-left:30px;
+	font-family:"Lobster Two", serif;
 }
 
 .content h3 {
-	font-family:"Ubuntu", serif;
+	font-family:"Ubuntu", sans-serif;
 	font-size: 20px;
 	text-align:center;
 }
@@ -104,14 +117,16 @@ body {
 .content p em {
 	font-weight:400;
 	font-style:normal;
-}
-
-.content a,.footer a {
 	color:#2c919b;
 }
 
+.content a,.footer a {
+	color:#d36e64;
+	font-weight:400;
+}
+
 .content a:hover,.footer a:hover {
-	color:#227179;
+	color:#c86958;
 }
 
 .nodec {
@@ -136,6 +151,11 @@ body {
 	height:250px;
 	display:inline;
 	float:right;
+	transition: 1s ease-in-out;
+}
+
+#lea:hover {
+	-webkit-transform: rotate(1turn);
 }
 
 #playground {
@@ -152,7 +172,8 @@ body {
 
 .separator {
 	height:1px;
-	background-color:#ddd;
+	background-color:#cac8c8;
+	box-shadow:1px 1px white;
 }
 
 #and {
@@ -163,7 +184,7 @@ body {
 }
 
 h1 {
-	font:30px "Coming Soon";
+	font:30px "Ubuntu";
 	color:#2c919b;
 	margin:auto;
 	text-align:center;
@@ -174,7 +195,6 @@ h1 {
 	width:100%;
 	background-color:#eaeaea;
 	border-top:1px solid #ddd;
-	margin-top:20px;
 	min-height:90px;
 	font-weight:300;
 	font-size:12px;
@@ -183,6 +203,7 @@ h1 {
 
 .footer a {
 	color:#2c919b;
+	font-weight:300;
 }
 
 .footer a:hover {
@@ -202,24 +223,131 @@ h1 {
 	color: #772248;
 }
 
-.oth a {
+.footer .oth a {
 	color: #772248;
 }
 
-.oth a:hover {
+.footer .oth a:hover {
 	color: #83254f;
 }
 
+.oth a {
+	color: #479572;
+}
+
+.oth a:hover {
+	color: #387559;
+}
+
 .oth p a {
-	color: #772248;
+	color: #479572;
 }
 
 .oth p a:hover {
+	color: #387559;
+}
+
+.oth .content em {
 	color: #83254f;
 }
 
 .date {
 	font-size:10px;
+}
+
+#form {
+	margin-bottom:20px;
+
+}
+
+.presenting {
+	width:100%;
+	background-color: #59838a;
+	height:auto;
+	min-height:300px;
+	margin-top:20px;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	text-align:center;
+}
+
+.img-description {
+	font-size:12px;
+}
+
+.presenting h2 {
+	font-family:"Lobster Two", serif;
+	color: white;
+	font-size:50px;
+	text-shadow:-1px -1px 1px #a6a6a6;
+}
+
+.pres_block {
+	border-radius:100%;
+	height:320px;
+	width:320px;
+	border:10px solid #969696;
+	margin:auto;
+	margin-bottom:40px;
+	margin-top:20px;
+	margin-right:20px;
+	display:inline-block;
+	position:relative;
+	z-index:3;
+	background:transparent;
+	box-shadow:-1px 0px 3px white;
+	
+}
+
+.pres_block img {
+	width:100%;
+	-webkit-filter: grayscale(100%);
+	-webkit-transition-duration: 0.5s, 0.3s;
+}
+
+.pres_block img:hover {
+	-webkit-filter: none;
+	-webkit-transition-duration: 0.5s, 0.3s;
+}
+
+.pres_block p {
+	position:absolute;
+	top:60%;
+	left:0px;
+	width:100%;
+	background: rgba(150, 150, 150, 0.7);
+	font-size:30px;
+	font-weight:bold;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	text-shadow:-1px 1px 10px white;
+}
+
+.project_photos {
+	width:100%;
+	height:200px;
+	overflow:auto;
+}
+
+.project_photos li { 
+	list-style: none; 
+}
+
+.project_photos ul li { 
+	float: left; 
+}
+
+.project_photos img {
+	display:inline;
+	position:relative;
+	margin:15px;
+	top:10px;
+	border:10px solid #969696;
+}
+
+legend {
+	border-bottom:1px solid #cac8c8;
+	box-shadow:0px 1px white;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
@@ -233,13 +361,23 @@ h1 {
 }
 
 @media screen and (max-width: 769px) {
-	.content h2 {
-		text-align:center;
-	}
+
 }
 
 @media screen and (max-width: 480px) {
-	.navbar-inverse .navbar-brand #main { 
-		font-size: 24px;
+	.content h2 {
+		padding-left:0;
+		text-align:center;
+	}
+
+	.pres_block {
+		height:280px;
+		width:280px;
+	}
+	.h_title {
+		font-size:34px;
 	}
 }
+
+
+

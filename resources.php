@@ -12,13 +12,12 @@ include('inc/header.php');
             <div class="col-lg-8">
                 <h2>Scouring the web:</h2>
                 
-                <p>There are TONS of resources out there. TONS! Some are free, some aren't. When I started out I probably spent more time looking for resources, than doing actual programming.</p>
-                <p>So out of the goodness of my heart (and my ease of access), and to save you some frustration, I present to you all the various resources I've come across. These can help you get started with web development, programming in different languages, and generally just following what's happening in the community. (:</p> 
-                <p>Clearly some of these intersect, but I'm sure you're clever enough to muddle through and find what resources suit you best.</p>
-                <p>I've broken my resources down into their respective chunks. If you feel like I've missed an important source or information, or you'd like to volunteer your own, feel free to <a href="contact.php">let me know</a>.</p>
-                <p><em>* note: Currently a mess, still in the process of reformating where each thing goes. Bare with me, thank you. Eventually the things I use most will be bolded, or starred, or... something.</em></p>
-                <p><em>Disclaimer:</em> I've at least looked, if not used, at every single one of these links.</p>
-            </div>
+                <p>There are <em>TONS</em> of resources out there. <em>TONS!</em> Some are free, some aren't. When I started out I probably spent more time looking for resources, than doing actual programming.</p>
+                <p>So out of the goodness of my heart, my ease of access, and to save you some frustration, I present to you <em>all the various resources</em> I've come across. These can help you get started with <em>web development</em>, <em>programming</em> in different languages, and generally just <em>following what's happening</em> in the community. (:</p> 
+                <p>Clearly some of these intersect, but I'm sure you're clever enough to muddle through, and find what resources suit you best.</p>
+                <p>I've broken my resources down into their respective chunks. If you feel like I've missed an important source, or you'd like to volunteer your own, feel free to <a href="contact.php">let me know</a>.</p>
+                <p><em>Disclaimer:</em> I've at least looked at, if not used, every single one of these links.</p>
+                <p><em>* note:</em> Currently a mess, still in the process of reformating where each thing goes. Eventually the things I use most will be bolded, or starred, or... something.</p>            </div>
 
             <div class="col-lg-2">
                 <img id="resources" class="img-responsive image-center" src="images/resources.png" />
@@ -183,6 +182,7 @@ include('inc/header.php');
                     <li><a href="http://lea.verou.me/demos/cssgradientsplease/">CSS3 Gradients</a></li>
                     <li><a href="http://jsbin.com/">JS Bin</a></li>
                     <li><a href="http://jsfiddle.net/">JS Fiddle</a></li>
+                    <li><a href="http://middlemanapp.com/">Middlemanapp</a></li>
                 </ul>
 
             

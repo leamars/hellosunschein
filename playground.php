@@ -10,17 +10,17 @@ include('inc/header.php');
 
             <div class="col-lg-1"> </div>
             <div class="col-lg-2">
-            <img id="playground" class="img-responsive image-center" src="images/playground.png" /> </div>
+            <img id="playground" class="img-responsive image-center" src="images/playground.png" />
+            </div>
             <div class="col-lg-8">
-                <h2>Playing around</h2>
-
-                <p>This. Is the most important part of my site. From here you can access any and all of my interesting (or less interesting) projects I come up with. Since I'm fairly new to the realm of web dev, I'm sure the first few will be pretty straightforward and boring. But as time goes on, I hope to come up with and execute awesome things (:</p>
-                <p>As mentioned on my homepage, this action/idea/whatever-you-want-to-call it was inspired by <a href="http://jenniferdewalt.com/">Jennifer Dewalt</a>, and her "180 Websites in 180 Days" project. She's definitely an inspiration. I can GUARANTEE you that I will not be able to make 180 websites in 180 days, but I'll make sure to always be working on something, and post it here asap. Even if they have small kinks or glitches, I need to stop being a OCD control freak, and just get stuff out there. Peace.</p>
-                <p>The projects that are bolded are interactive. Feel free to play with them, and send me feedback.</p>
+                <h2>Playing around:</h2>
+                
+                <p>This is the <em>main event</em>. From here you can access any and all of my interesting (or less interesting) webby experiments I've come up with. Since I'm fairly new to the realm of web dev, I'm sure the first few will be pretty straightforward and boring. But as time goes on, I hope I'll be making some sweet apps (:</p>
+                <p>As mentioned on my homepage, this action/idea/whatever-you-want-to-call-it was inspired by <a href="http://jenniferdewalt.com/">Jennifer Dewalt</a>. I can pretty much <em>guarantee</em> that I will <em>not</em> be making 180 websites in 180 days. There's tests to take, friends to hang out with, 
+                sleep to have, and all the other general life stuff. I'll make sure to always be working on something, though. As soon as I'm done, and 80% happy with it, I'll post it. Because even if there's small kinks or glitches, I don't want to get stuck on them forever.
+                I need to stop being so OCD, and just <em>get stuff out there</em>. Peace.</p>
+                <p>Feel free to play with these, send me feedback, or ask me questions if you so desire.</p>
             </div>
-            </div>
-        </div>
-
             <div class="col-lg-1"></div>
         </div>
 
@@ -36,16 +36,46 @@ include('inc/header.php');
             <div class="col-lg-2"></div>
             <div class="col-lg-2">
                 <h3>August 2013</h3>
-                <ol>
-                <li><a href="index.php">Launch Website</a> <br /><span class="date">(August 11th)</span></li>
+                <ul id="slider">
+                <li><a href="index.php">Website 1.0</a> <br /><span class="date">(August 11th)</span></li>
                 <li><a href="projects/spasticBackground/index.html">Spastic Background</a> <br /><span class="date">(August 12th)</span></li>
                 <li><a href="projects/crypto/index.html">Encrypt/Decrypt</a> <br /> <span class="date">(August 16th)</span></li>
                 <li><a href="projects/calculator/index.html">Calculator</a> <br /> <span class="date">(August 16th)</span></li>
-                <li>Default <br /> <span class="date">(August 32nd)</span></li>
-                </ol>
+                <li><a href="index.php">Website 1.1</a> <br /> <span class="date">(August 19th)</span></li>
+                </ul>
             </div>
-            <div class="col-lg-2"></div>
-        </div>
 
+            <div class="col-lg-8">
+                    <div class="project_photos">
+                    <ul>
+                        <li><a href="index.php">
+                            <img src="images/projects/first1.png">
+                            <img src="images/projects/first2.png"></a>
+                        </li>
+
+                        <li><a href="projects/spasticBackground/index.html">
+                            <img src="images/projects/second1.png">
+                            <img src="images/projects/second2.png"></a>
+                        </li>
+
+                        <li><a href="projects/crypto/index.html">
+                            <img src="images/projects/third1.png">
+                            <img src="images/projects/third2.png"></a>
+                        </li>
+
+                        <li><a href="index.php">
+                            <img src="images/projects/fourth1.png">
+                            <img src="images/projects/fourth2.png"></a>
+                        </li>
+
+                        <li><a href="index.php">
+                            <img src="images/projects/fifth1.png">
+                            <img src="images/projects/fifth2.png"></a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
     </div>
 <?php include('inc/footer.php'); ?>

@@ -6,13 +6,12 @@
     <link rel="stylesheet" href="dist/css/bootstrap.css" media="screen" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     
     <link rel="shortcut icon" href="<?php if($other) {echo "images/icons/hellosunschein_other.ico";} else {
         echo "images/icons/hellosunschein.ico";} ?>" >
 
-    <title>hellosunschein*</title>
+    <title>hellosunschein</title>
 </head>
 
 <body>
@@ -32,6 +31,8 @@
             <div class="nav-collapse collapse">
                 <ul class="nav navbar-nav pull-right index h_nav_nav <?php echo $activeClass ?>">
                     <li><a href="index.php">Home</a></li>
+
+                    <li><a href="about.php">About</a></li>
 
                     <li><a href="contact.php">Contact</a></li>
 
