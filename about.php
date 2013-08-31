@@ -16,7 +16,7 @@ include('inc/header.php');
                 <p>My second last name is German, and it means <em>sunshine</em> in English. Coincidentally, at the time of username creation, I was obsessed with the song <a href="http://www.youtube.com/watch?v=njaYAccqpqk">Hello Sunshine</a> by the <em>Super Furry Animals</em>, so it seemed like a natural choice (the fact that I was an angsty little teenager, binge watching The O.C., fangirling over Seth, and seeing him and Summer finally get together to that song's soundtrack clearly had nothing to do with it).</p>
             </div>
 
-            <div class="col-lg-3 image-center"><img class="img-responsive" src="images/sun.png"></div>
+            <div class="col-lg-3 image-center"><img class="img-responsive" src="images/sun.png" alt="sun icon"></div>
             <div class="col-lg-1"></div>
         </div>
 
@@ -125,7 +125,7 @@ include('inc/header.php');
         <div class="row content height_fix">
         <div class="col-lg-1"></div>
             <div class="col-lg-2 image-center">
-                <a href="resume.html"><img class="img-responsive" src="images/resume.png">
+                <a href="resume.html"><img class="img-responsive" src="images/resume.png" alt="resume icon">
 	                <p><span class="img-description">Check out my carefully crafted resume (:</span></p>
                 </a>
             </div>

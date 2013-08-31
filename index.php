@@ -8,7 +8,7 @@ include('inc/header.php');
         <div class="row">
         	<div class="col-lg-1"></div>            
             <div class="col-lg-10 content">
-                <h2>My name is Lea. <img id="lea" class="responsive-img" src="images/lea.png"></h2>
+                <h2>My name is Lea. <img id="lea" class="responsive-img" src="images/lea.png" alt="generic picture of me"></h2>
 
                 <p>I'm a 21 year old college student majoring in Computer Science at <a href="http://www.grinnell.edu/">Grinnell College</a>. I come from <a href="https://www.google.hr/search?q=slovenia&um=1&ie=UTF-8&hl=sl&tbm=isch&source=og&sa=N&tab=wi&ei=eRwSUoOZJ4nZ4QT2y4HoCA&biw=1280&bih=575&sei=ehwSUunGOsSR4AS7m4DYCA#bav=on.2,or.r_cp.r_qf.&fp=c2407839a610c5f1&hl=sl&q=slovenija+narava&sa=1&tbm=isch&um=1&imgdii=_">Slovenia</a>,
                  a beautiful chicken-shaped country.
@@ -41,16 +41,16 @@ include('inc/header.php');
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
                 <div class="pres_block">
-                    <a href="https://itunes.apple.com/us/app/s-b/id638912711?mt=8"><img src="images/sandb.png"></a>
+                    <a href="https://itunes.apple.com/us/app/s-b/id638912711?mt=8"><img src="images/sandb.png" alt="my mobile apps"></a>
                     <p>Mobile Apps</p>
                 </div>
                 <div class="pres_block">
-                    <a href="http://www.flickr.com/photos/romantze/"><img src="images/art.png"></a>
+                    <a href="http://www.flickr.com/photos/romantze/"><img src="images/art.png" alt="my art"></a>
                     <p>Art Endeavours</p>
                 </div>
                 <div class="pres_block">
-                    <a href="http://www.youtube.com/watch?v=Sn0vybzqwGk"><img src="images/music.png"></a>
-                    <p>Music</p>
+                    <a href="http://hellosunschein.com/playground.php"><img src="images/music.png" alt="my web apps"></a>
+                    <p>Web Dev</p>
                 </div>
             </div>
             <div class="col-lg-1"></div>

@@ -1,0 +1,71 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.text {
+	text-align:center;
+	font-family:"Ubuntu";
+	margin-top:20px;
+}
+
+.container {
+	text-align: center;
+}
+
+.container:before {
+	content:"";
+	display:none;
+	height:100%;
+	vertical-align:middle;
+}
+
+.ball {
+	border-radius:100%;
+	background: transparent -webkit-radial-gradient(20% 20%, #fff 10%, #cea8d0 40%, #9d49a4 60%, #63006a 100%);
+	border:8px solid #66336a;	
+	width:300px;
+	height:300px;
+	vertical-align:middle;
+	display:inline-block;
+	cursor:pointer;
+	margin-top:50px;
+}
+
+#caution {
+	font-size:10px;
+}
+
+#caution em {
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#answerBox {
+	font:2em/30px "Marck Script";
+	margin-top:20px;
+}
+
+.goAway {
+	font-size:50px;
+	margin-top:50px;
+	width:400px;
+	margin:auto;
+	margin-top:50px;
+}
+
+.goAway:after {
+	content:"Be Gone!";
+	display:block;
+	font-weight:bold;
+}
+

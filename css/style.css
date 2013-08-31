@@ -361,7 +361,9 @@ legend {
 }
 
 @media screen and (max-width: 769px) {
-
+	.pres_block img {
+		-webkit-filter:none;
+	}
 }
 
 @media screen and (max-width: 480px) {

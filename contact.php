@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     . "Message: " . $message;
 
     $mail->SetFrom($email, $name);
-    $address = "leyamars@gmail.com";
+    $address = "lea@hellosunschein.com";
     $mail->AddAddress($address, "hellosunschein");
 
     $mail->Subject = "hellosunschein Contact Form Submission | " . $name;
@@ -49,6 +49,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $subject = "hellosunschein Contact Form Submission | " . $subject;
     $headers = "From: " . $name;
+
+    $mail->Send();
 
     if(!$mail->Send()) {
         echo "Mailer Error: " . $mail->ErrorInfo;
@@ -108,7 +110,7 @@ include('inc/header.php');
             
             <div class="col-lg-6">
             
-            <img class="image-center img-responsive" src="images/leacontact.png" />
+            <img class="image-center img-responsive" src="images/leacontact.png" alt="my face with writing"/>
             </div>
             <div class="col-lg-1"></div>
 

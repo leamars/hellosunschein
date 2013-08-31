@@ -20,7 +20,7 @@ include('inc/header.php');
                 <p><em>* note:</em> Currently a mess, still in the process of reformating where each thing goes. Eventually the things I use most will be bolded, or starred, or... something.</p>            </div>
 
             <div class="col-lg-2">
-                <img id="resources" class="img-responsive image-center" src="images/resources.png" />
+                <img id="resources" class="img-responsive image-center" src="images/resources.png" alt="computer icon"/>
             </div>
             <div class="col-lg-1"></div>
         </div>
@@ -106,6 +106,7 @@ include('inc/header.php');
                     <li><a href="http://icomoon.io/">IcoMoon</a></li>
                     <li><a href="http://thenounproject.com/">The Noun Project</a></li>
                     <li><a href="http://www.designkindle.com/">Design Kindle</a></li>
+                    <li><a href="http://www.losttype.com/">Lost Type</a></li>
                 </ul>
 
                 <h3>Frameworks</h3>
@@ -216,6 +217,7 @@ include('inc/header.php');
                     <li><a href="https://github.com/rmurphey/js-assessment">JavaScript Assestment Tests</a></li>
                     <li><a href="http://ejohn.org/apps/learn/">Advanced JavaScript</a></li>
                     <li><a href="http://learn.jquery.com/">Learn jQuery</a></li>
+                    <li><a href="http://bonsaiden.github.io/JavaScript-Garden/"></a></li>
                 </ul>
 
                 <h3>Ruby</h3>
@@ -227,6 +229,8 @@ include('inc/header.php');
                     <li><a href="http://pine.fm/LearnToProgram">Learn to Program</a></li>
                     <li><a href="http://rubymonk.com/">Rubymonk</a></li>
                     <li><a href="http://rubeque.herokuapp.com/">Rubeque</a> - solve Ruby problems</li>
+                    <li><a href="https://onemonthrails.com/">Learn Rails in 1 Month</a></li>
+                    <li><a href="http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/">Best Way to Learn ROR</a></li>
                 </ul>
 
                 <h3>Closure</h3>
