@@ -3,7 +3,7 @@ $activeClass = "about_active";
 $other = false;
 include('inc/header.php'); 
 ?>
-	<div class="container">
+    <div class="container">
 
         <div class="row content height_fix">
         <div class="col-lg-1"></div>
@@ -21,119 +21,38 @@ include('inc/header.php');
         </div>
 
         <div class="row box_spacing">
-        	<div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
             <div class="col-lg-10">
                 <div class="separator"></div>
             </div>
-        	<div class="col-lg-1"></div>
-        </div>
-        
-                <div class="row content height_fix">
-                <div class="col-lg-1"></div>
-            <div class="col-lg-5">
-                <h2>What am I doing?</h2>
-
-                <p>First thing's first. As a computer science major, you get to do a lot of cool stuff. But you get to do a bunch of <em>straightforward</em> projects and homework assignments, that aren't very interesting, as well. Sure, it teaches you the basic concepts of a programming language or paradigm, but it doesn't really <em>challenge you</em>.</p>
-                <p>Second thing, I really enjoy working on projects that have a <em>visual result or output</em>. I like working both on a <em>functionality</em> of project, as well as the <em>presentation</em> (for example mobile apps, those are pretty sweet).</p> 
-                <p>So, I said to myself: <blockquote>"God dang it woman. Just challenge <em>yourself</em>! Find a way to creatively solve problems where you can apply both your technical skills, and your quirky aesthetic."</blockquote></p> <p>And this is how I found myself interested in web development (again).</p>
-                <p>It's been years since I wrote my first HTML. CSS wasn't even a thing. Back then all you had to do was make a <a href="http://img.photobucket.com/albums/v255/leamarschein/Graphics/Really%20Old/f.jpg">pretty picture</a> (I was 10, give me a break), use it as the background, and absolute-position your elements like a crazy person.</p> 
-            </div>
-            
-           <div class="col-lg-5">
-                <br />
-                <br />
-                <br />
-                <p>Then there was CSS, and everything got <em>SO fancy</em>. Oh, how I loved the new minimalist-typography style mash that emerged. I could spit out an awesome website with just 3 colors and Georgia!</p>
-                <p>Imagine my surprise when I looked into what this simple HTML/CSS jungle evolved to over the past few years. There's <em>CSS animations</em>, <em>transforms</em>, <em>gradients</em>...</em> You've got all sorts of <em>preprocessors, frameworks</em>, and <em>approaches</em>. You have to watch out for <em>cross-browser compatibility</em>, making your site <em>responsive</em>, and you can even make <em>mobile applications</em>! It's gone totally haywire!</p>
-                <p>There's your <em>JavaScript</em> and its countless libraries. Then there's <em>Ruby and PHP</em>, and all these other web keywords that made my head spin at first.</p>
-                <p>One key thing I noticed, though, was that web development is actually <em>a lot like CS</em>. The skills I've gained in my classes can be directly applied to developing for the web.</p>
-                <p>So this is where I'm at. I'm trying out new things, and I'm finding it much more exciting and rewarding than 2 years worth of CS classes. At the same time, I'm thankful for my CS education, because it's making the learning curver much less steep. Everyone's been telling me that as a future job-seeker, you need to have personal projects, and I guess that this one's mine. I don't know how it's going to turn out, but I'm enjoying myself, and that's all that matters. <a href="http://www.urbandictionary.com/define.php?term=JFDI">JFDI</a>.</p>
-           </div>
-           <div class="col-lg-1"></div>
-        </div>
-
-        <div class="row box_spacing">
-        	<div class="col-lg-1"></div>
-            <div class="col-lg-10">
-                <div class="separator"></div>
-            </div>
-        	<div class="col-lg-1"></div>
-        </div>
-
-        <div class="row content height_fix">
-        <div class="col-lg-2"></div>
-            <div class="col-lg-4">
-                <h2 class="image-center">Quantitative data</h2>
-
-                <ul class="nodec">
-                    <li>Citizen of Slovenia</li>
-
-                    <li>Brown hair, brown eyes, white skin</li>
-
-                    <li>Nearly perfect vision</li>
-
-                    <li>5'2 or 162cm tall (some say short)</li>
-
-                    <li>21 years of age</li>
-
-                    <li>Computer Science major at Grinnell College</li>
-
-                    <li>Rising junior</li>
-
-                    <li>GPA: 3.6</li>
-
-                    <li>Can insult or praise you in 7 different languages</li>
-
-                    <li>Usually smells like coffee</li>
-                </ul>
-            </div>
-
-            <div class="col-lg-4">
-                <h2 class="image-center">Qualitative data</h2>
-
-                <ul class="nodec">
-                    <li>Hard and diligent worker</li>
-
-                    <li>Dedicated to complete a given task</li>
-
-                    <li>Creative and assertive</li>
-
-                    <li>Likes to help others</li>
-
-                    <li>Is big on education (of self and others)</li>
-
-                    <li>Believes one should never stop learning</li>
-
-                    <li>Enthusiastic problem solver</li>
-
-                    <li>Puts more focus on the "bigger picture" than details</li>
-
-                    <li>Easily breaks big problems into manageable, little chunks</li>
-                </ul>
-            </div>
-            <div class="col-lg-2"></div>
-        </div>
-
-        <div class="row box_spacing">
-        	<div class="col-lg-1"></div>
-            <div class="col-lg-10">
-                <div class="separator"></div>
-            </div>
-        	<div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
         </div>
 
         <div class="row content height_fix">
         <div class="col-lg-1"></div>
             <div class="col-lg-2 image-center">
-                <a href="resume.html"><img class="img-responsive" src="images/resume.png" alt="resume icon">
-	                <p><span class="img-description">Check out my carefully crafted resume (:</span></p>
+                <a href="resume.html"><img class="img-responsive" id="resume" src="images/resume.png" alt="resume icon">
+                    <p><span class="img-description">Check out my carefully crafted resume (:</span></p>
                 </a>
             </div>
 
             <div class="col-lg-8">
                 <h2>Personal statement</h2>
 
-                <p>At some point tomorrow, I swear I'll write a sort of personal statement here about me, but for today, I'm beat. No more writing for me. I should also probably make this 8 columns instead of 6, I think I'll go do that right now. Okay. Cool. I could really use some lorem ipsum right now, to fill up the content. To get a better overview of what I've done, and what I haven't done, and how well I did it, feel free to check out my resume, or enjoy this lovely little link to my <a href="http://www.linkedin.com/">linkedin</a> profile.</p>
+                <p>What I love doing most is <em>creating "things"</em>; whether they be <a href="#">mobile apps</a>, <a href="#">paintings</a>, <a href="#">screen prints</a>, or <a href="@">websites</a>. In everything that I do, I try to <em>challenge myself, and learn something new</em>, instead
+                of just <em>reitrating what I've already done previously</em>. I'm not afraid to <em>try out different approaches</em>, if I see the current one isn't working, and I adapt well. I'm not afraid to <em>speak up and question decisions</em>, 
+                if I don't think they're right, but at the same time, I <em>respect everyone's opinion</em>, and have no problem admitting that I'm wrong, if I've been proven so. I'm extremely <em>well organized</em>, and have, over the years, 
+                developed a <em>great sense of time management</em>. I <em>take initiative</em>, and I'm able to teach myself and apply what I've learned. I try <em>thinking ahead</em>, and be on top of what's going on to be prepared for the future,
+                especially in the field of technology. </p>
+
+                <p>I'm a <em>perfectionist</em>, which sometimes drives my teammates crazy, and results in delaying the deployment or presentation
+                of a project, but I don't want to let something go out in to the world if I'm not proud of it. I'm very <em>forgetful</em>, and I rely on a plethora of technology devices to stay focused and organized. Sometimes I <em>get
+                discouraged by failures</em>, but I usually take it as a "lesson learned" kind of thing, and know not to do it again in the future. 
+                I <em>hate talking about myself</em>, and this paragraph was one of the hardest things I've had to write. </p>
+
+                <p>In the end, <em>I'm just a person</em>. I'm not perfect, I have flaws, and I make mistakes. But I'm always <em>trying to be better</em>. 
+                I have a <em>passion for learning new things</em>, and seeing how I can use them to build something that will <em>improve</em> (even if only the tinniest bit) <em>someones life</em>. I have a <em>drive to create, and a will to succeed</em>.
+                </p>
             </div>
             <div class="col-lg-1"></div>
         </div>

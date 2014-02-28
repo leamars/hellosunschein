@@ -345,6 +345,10 @@ h1 {
 	border:10px solid #969696;
 }
 
+#resume {
+	padding-top: 200px;
+}
+
 legend {
 	border-bottom:1px solid #cac8c8;
 	box-shadow:0px 1px white;

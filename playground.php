@@ -20,7 +20,7 @@ include('inc/header.php');
                 sleep to have, and all the other general life stuff. I'll make sure to always be working on something, though. As soon as I'm done, and 80% happy with it, I'll post it. Because even if there's small kinks or glitches, I don't want to get stuck on them forever.
                 I need to stop being so OCD, and just <em>get stuff out there</em>. Peace.</p>
                 <p>Feel free to play with these, send me feedback, or ask me questions if you so desire.</p>
-                <p>You can follow my progress, and find out more about each of the projects on my <a href="http://hellosunschein.wordpress.com/">blog</a>.</p>
+                <p>* project currently on hold due to my intense course workload, and deeper involvement in AppDev (developing mobile application for iOS).</p>
             </div>
             <div class="col-lg-1"></div>
         </div>
@@ -45,6 +45,10 @@ include('inc/header.php');
                 <li><a href="index.php">Website 1.1</a> <br /> <span class="date">(August 19th)</span></li>
                 <li><a href="projects/crystalBall/index.html">Crystal Ball</a> <br /> <span class="date">(August 23rd)</span></li>
                 </ul>
+                <h3>December 2013</h3>
+                <ul>
+                <li><a href="projects/apps/index.html">My Apps</a>
+                </li>
             </div>
 
             <div class="col-lg-8">
